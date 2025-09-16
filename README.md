@@ -82,7 +82,7 @@ ui.faces.position_x = 2
 ui.faces.position_y = 32
 ```
 
-### 🚨 Place the <ins>custom-faces</ins> file into the <ins>root</ins> of your Pwnagotchi. 🚨
+## 🚨 Place the <ins>custom-faces</ins> file into the <ins>root</ins> of your Pwnagotchi. 🚨
 ### Hint: If you already have a *custom-faces* folder in the *root* directory of your Pwnagotchi, replace it with the *custom-faces* folder from this repo.
 
 
