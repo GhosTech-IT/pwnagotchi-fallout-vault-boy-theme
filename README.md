@@ -82,7 +82,7 @@ ui.faces.position_x = 2
 ui.faces.position_y = 32
 ```
 
-Make sure all the PNG files are placed under a directory called `/custom-faces/` in the root (`/`) of your system.
+Make sure all the PNG files are placed under a directory called `/custom-faces/` in the root (`/`) of your Pwnagotchi.
 
 
 ## Attribution
