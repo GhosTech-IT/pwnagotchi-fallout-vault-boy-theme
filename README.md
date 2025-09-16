@@ -78,8 +78,8 @@ ui.faces.upload = "/custom-faces/UPLOAD.png"
 ui.faces.upload1 = "/custom-faces/UPLOAD1.png"
 ui.faces.upload2 = "/custom-faces/UPLOAD2.png"
 ui.faces.png = true
-ui.faces.position_x = 0
-ui.faces.position_y = 34
+ui.faces.position_x = 2
+ui.faces.position_y = 32
 ```
 
 Make sure all the PNG files are placed under a directory called `/custom-faces/` in the root (`/`) of your system.
