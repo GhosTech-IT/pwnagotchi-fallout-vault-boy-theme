@@ -79,7 +79,7 @@ ui.faces.upload1 = "/custom-faces/UPLOAD1.png"
 ui.faces.upload2 = "/custom-faces/UPLOAD2.png"
 ui.faces.png = true
 ui.faces.position_x = 2
-ui.faces.position_y = 32
+ui.faces.position_y = 33
 ```
 
 ## 🚨 Place the <ins>custom-faces</ins> file into the <ins>root</ins> of your Pwnagotchi. 🚨
