@@ -1,4 +1,4 @@
-# 👾 Pwnagotchi: Fallout Vault Boy Faces
+# 👾 Pwnagotchi: Fallout Vaul Boy Theme
 
 This repository is a fork of [JD-2006/pwnagotchi-fallout-faces-mod](https://github.com/JD-2006/pwnagotchi-fallout-faces-mod/tree/main) with modifications for use on the 2.13in Waveshare e-ink displays.
 
@@ -82,11 +82,40 @@ ui.faces.position_x = 2
 ui.faces.position_y = 33
 ```
 
-## 🚨 Place the <ins>custom-faces</ins> file into the <ins>root</ins> of your Pwnagotchi. 🚨
-### Hint: If you already have a <ins>custom-faces</ins> folder in the <ins>root</ins> directory of your Pwnagotchi, replace it with the <ins>custom-faces</ins> folder from this repo.
+🚨 Place the `custom-faces` file into the `root` of your Pwnagotchi.
+Hint: If you already have a `custom-faces` folder in the `root` directory of your Pwnagotchi, replace it with the `custom-faces` folder from this repo.
 
 
+### 2. Replace `voice.py` for Fallout Vault Boy Theme's version
+These instructions are specifically for jayofelony's Pwnagotchi 2.9.5.3 release. If you are using a different Pwnagotchi release, the directory for your `voice.py` may be different.
 
+🚨 This voice file refers to the Pwnagotchi as the Wanderer Companion and causes it to display messages themed to make the user feel like it is a gadget straight out of the Fallout: New Vegas video game. (The word "handshake" has been replaced with "stimpack") 
+
+Download the `voice.py` file from this repo and move it to your desktop.
+
+Open a terminal on your computer. Then, copy the new `voice.py` from your computer to your Pwnagotchi:
+
+```Bash
+scp ~/Desktop/voice.py pi@10.0.0.2:/home/pi/
+```
+
+SSH into your Pwnagotchi:
+
+```Bash
+ssh pi@10.0.0.2
+```
+
+Move the new `voice.py` into the proper directory:
+
+```Bash
+sudo mv /home/pi/voice.py /home/pi/.pwn/lib/python3.11/site-packages/pwnagotchi/voice.py
+```
+
+Restart Pwnagotchi to apply changes:
+
+```Bash
+sudo systemctl restart pwnagotchi
+```
 
 ## Attribution
 Original Fallout Vault Boy faces by JD-2006, from [pwnagotchi-fallout-faces-mod](https://github.com/JD-2006/pwnagotchi-fallout-faces-mod). This fork applies modifications for display optimization only.
