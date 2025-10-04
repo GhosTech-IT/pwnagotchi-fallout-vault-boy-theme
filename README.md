@@ -1,4 +1,4 @@
-# 👾 Pwnagotchi: Fallout Vaul Boy Theme
+# 👾 Pwnagotchi: Fallout Vault Boy Theme
 
 This repository is a fork of [JD-2006/pwnagotchi-fallout-faces-mod](https://github.com/JD-2006/pwnagotchi-fallout-faces-mod/tree/main) with modifications for use on the 2.13in Waveshare e-ink displays.
 
